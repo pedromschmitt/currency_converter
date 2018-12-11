@@ -9,9 +9,9 @@ RSpec.configure do |config|
         "currency": [
             {
                 "currency": "USD/BRL",
+                "value": "3.41325",
                 "date": "2018-04-20 17:22:59",
                 "type": "original"
-                "value": "3.41325",
             }
         ]
       }', headers: {})
