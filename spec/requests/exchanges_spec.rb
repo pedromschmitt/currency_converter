@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 
-RSpec.describe 'Exchanges', type: :request do
+RSpec.describe 'Exchange', type: :request do
   describe 'GET #index' do
     it 'returns http success' do
       get '/'
@@ -9,7 +9,7 @@ RSpec.describe 'Exchanges', type: :request do
     end
   end
 
-  
+
   describe 'GET #convert' do
     before do
       @amount = rand(1..9999)
