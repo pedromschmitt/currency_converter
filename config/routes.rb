@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'exchange/index'
-  get 'exchange/convert'
+  root 'exchange#index'
+  get 'convert', to: 'exchange#convert'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
